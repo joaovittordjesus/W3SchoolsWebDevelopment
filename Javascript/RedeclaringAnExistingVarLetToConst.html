@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redeclaring Variables</title>
+</head>
+<body>
+    
+</body>
+</html>
+    <p id="alert"></p>
+    <p id="alert1"></p>
+    <p id="alert2"></p>
+
+<script>
+var x = 2; //Allowed
+const x = 2; //Not allowed
+
+{
+    let x = 2; //Allowed
+    const x = 2; //
+}
+
+{
+    const x = 2; //Allowed
+    const x = 2;//Not allowed
+}
+</script>
